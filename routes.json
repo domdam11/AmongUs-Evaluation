@@ -1,0 +1,10 @@
+{
+  "/api/strategic/sessions": "/sessions",
+  "/api/strategic/session/:sessionId/eventlist": "/eventlists?sessionId=:sessionId",
+  "/api/strategic/session/:sessionId/eventdetails/:eventId": "/eventdetails/:eventId",
+
+  "/api/strategic/session/:sessionId/evaluations/:userId": "/evaluations?sessionId=:sessionId&userId=:userId",
+
+  "/api/strategic/session/:sessionId/event/:eventId/evaluation/:userId": "/evaluations/:userId-:eventId",
+  "/api/strategic/session/:sessionId/event/:eventId/evaluations": "/evaluations"
+}

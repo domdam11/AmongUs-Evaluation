@@ -1,0 +1,36 @@
+{
+  "graph": {
+    "edges": [
+      { "data": { "label": 0.9242424368858337, "source": 0, "target": 1 } },
+      { "data": { "label": 0.5454545617103577, "source": 1, "target": 0 } },
+      { "data": { "label": 0.9538755798339844, "source": 2, "target": 0 } },
+      { "data": { "label": 1.0, "source": 2, "target": 1 } },
+      { "data": { "label": 0.5454545617103577, "source": 3, "target": 0 } },
+      { "data": { "label": 0.8611111044883728, "source": 3, "target": 1 } }
+    ],
+    "nodes": [
+      { "data": { "id": 0, "label": "CanVent" } },
+      { "data": { "id": 1, "label": "OtherStrategy" } },
+      { "data": { "id": 2, "label": "Luscars" } },
+      { "data": { "id": 3, "label": "NotSeeSomeOne" } }
+    ]
+  },
+  "suggestedStrategies": [
+    {
+      "name": "CanVent",
+      "score": 0.9938,
+      "explanation": {
+        "positive": { "path": [3, 2], "strengthProduct": 0.787 },
+        "negative": { "path": [0, 1, 2], "strengthProduct": 0.845 }
+      }
+    },
+    {
+      "name": "OtherStrategy",
+      "score": 0.9990,
+      "explanation": {
+        "positive": { "path": [3, 1], "strengthProduct": 0.861 },
+        "negative": { "path": [0, 1], "strengthProduct": 0.924 }
+      }
+    }
+  ]
+}

@@ -1,0 +1,5540 @@
+{
+  "permissions": [
+    {
+      "id": "admin-IMMBKU_01",
+      "userId": "admin",
+      "sessionId": "IMMBKU_01",
+      "canVote": true
+    },
+    {
+      "id": "user42-IMMBKU_01",
+      "userId": "user42",
+      "sessionId": "IMMBKU_01",
+      "canVote": true
+    }
+  ],
+  "users": [
+    {
+      "id": "admin",
+      "role": "admin",
+      "sessionKey": "admin-key-123"
+    },
+    {
+      "id": "user42",
+      "role": "user",
+      "sessionKey": "secret-42"
+    },
+    {
+      "id": "user43",
+      "role": "user",
+      "sessionKey": "7kN8QTOxjli5eCs_2PGUIw"
+    },
+    {
+      "id": "user44",
+      "role": "user",
+      "sessionKey": "759DlIkes6Y9jlYqhjqOrA"
+    }
+  ],
+  "corrections": [
+    {
+      "id": "user42-IMMBKU_01_018",
+      "sessionId": "IMMBKU_01",
+      "eventId": "IMMBKU_01_018",
+      "userId": "user42",
+      "correctStrategy": "KillToWin",
+      "timestamp": "2025-09-09T14:21:16.114Z"
+    }
+  ],
+  "strategies": [
+    {
+      "id": "KillToWin",
+      "name": "Kill to Win",
+      "description": "Focus on eliminating crew quickly to secure victory."
+    },
+    {
+      "id": "CanVent",
+      "name": "Can Vent",
+      "description": "Take advantage of vents to move around unseen."
+    },
+    {
+      "id": "UccidiESpegniLuci",
+      "name": "Kill and Sabotage Lights",
+      "description": "Strike and disable lights to disorient the crew."
+    }
+  ],
+  "sessions": [
+    {
+      "id": "IMMBKU_01",
+      "timestamp": "2025-07-14T10:00:00Z"
+    }
+  ],
+  "eventlists": [
+    {
+      "id": "IMMBKU_01_000",
+      "timestamp": "2025-08-26T10:47:19.1173516Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.08815360069274902
+    },
+    {
+      "id": "IMMBKU_01_001",
+      "timestamp": "2025-08-26T10:47:19.3853441Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.0073691606521606445
+    },
+    {
+      "id": "IMMBKU_01_002",
+      "timestamp": "2025-08-26T10:47:19.5697678Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.983623743057251
+    },
+    {
+      "id": "IMMBKU_01_003",
+      "timestamp": "2025-08-26T10:47:19.8363879Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_004",
+      "timestamp": "2025-08-26T10:47:20.0198552Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_005",
+      "timestamp": "2025-08-26T10:47:20.2209108Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_006",
+      "timestamp": "2025-08-26T10:47:20.6262830Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_007",
+      "timestamp": "2025-08-26T10:47:20.8133568Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_008",
+      "timestamp": "2025-08-26T10:47:20.9967445Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_009",
+      "timestamp": "2025-08-26T10:47:21.2337231Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_010",
+      "timestamp": "2025-08-26T10:47:21.3739961Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_011",
+      "timestamp": "2025-08-26T10:47:21.5115097Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_012",
+      "timestamp": "2025-08-26T10:47:21.7082015Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_013",
+      "timestamp": "2025-08-26T10:47:21.8755070Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_014",
+      "timestamp": "2025-08-26T10:47:22.1315278Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_015",
+      "timestamp": "2025-08-26T10:47:22.2606363Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_016",
+      "timestamp": "2025-08-26T10:47:22.6160075Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_017",
+      "timestamp": "2025-08-26T10:47:22.8361066Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_018",
+      "timestamp": "2025-08-26T10:47:23.2383677Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_019",
+      "timestamp": "2025-08-26T10:47:23.3743408Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_020",
+      "timestamp": "2025-08-26T10:47:23.8598691Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_021",
+      "timestamp": "2025-08-26T10:47:24.1841536Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_022",
+      "timestamp": "2025-08-26T10:47:24.3222903Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.9823360443115234
+    },
+    {
+      "id": "IMMBKU_01_023",
+      "timestamp": "2025-08-26T10:47:24.4675920Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_024",
+      "timestamp": "2025-08-26T10:47:24.6700638Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_025",
+      "timestamp": "2025-08-26T10:47:24.8162764Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.9840081930160522
+    },
+    {
+      "id": "IMMBKU_01_026",
+      "timestamp": "2025-08-26T10:47:24.9738615Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.9823360443115234
+    },
+    {
+      "id": "IMMBKU_01_027",
+      "timestamp": "2025-08-26T10:47:25.1689241Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_028",
+      "timestamp": "2025-08-26T10:47:25.2986669Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_029",
+      "timestamp": "2025-08-26T10:47:25.4810984Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_030",
+      "timestamp": "2025-08-26T10:47:25.6277747Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_031",
+      "timestamp": "2025-08-26T10:47:26.1127852Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_032",
+      "timestamp": "2025-08-26T10:47:26.4916214Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_033",
+      "timestamp": "2025-08-26T10:47:26.6828610Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_034",
+      "timestamp": "2025-08-26T10:47:26.9120951Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_035",
+      "timestamp": "2025-08-26T10:47:27.0890041Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_036",
+      "timestamp": "2025-08-26T10:47:27.2980145Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_037",
+      "timestamp": "2025-08-26T10:47:27.6534311Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_038",
+      "timestamp": "2025-08-26T10:47:27.8493584Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_039",
+      "timestamp": "2025-08-26T10:47:28.0248852Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_040",
+      "timestamp": "2025-08-26T10:47:28.2572782Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_041",
+      "timestamp": "2025-08-26T10:47:28.4704289Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_042",
+      "timestamp": "2025-08-26T10:47:28.6535887Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_043",
+      "timestamp": "2025-08-26T10:47:28.8365666Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_044",
+      "timestamp": "2025-08-26T10:47:29.0894915Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_045",
+      "timestamp": "2025-08-26T10:47:29.2760566Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_046",
+      "timestamp": "2025-08-26T10:47:29.4363530Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_047",
+      "timestamp": "2025-08-26T10:47:29.6364831Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_048",
+      "timestamp": "2025-08-26T10:47:29.8670644Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_049",
+      "timestamp": "2025-08-26T10:47:30.1652936Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_050",
+      "timestamp": "2025-08-26T10:47:30.3667762Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_051",
+      "timestamp": "2025-08-26T10:47:30.5899739Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_052",
+      "timestamp": "2025-08-26T10:47:30.8192409Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_053",
+      "timestamp": "2025-08-26T10:47:30.9923921Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_054",
+      "timestamp": "2025-08-26T10:47:31.1826047Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_055",
+      "timestamp": "2025-08-26T10:47:31.4178898Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_056",
+      "timestamp": "2025-08-26T10:47:31.8145797Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_057",
+      "timestamp": "2025-08-26T10:47:32.0043401Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_058",
+      "timestamp": "2025-08-26T10:47:32.2031605Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_059",
+      "timestamp": "2025-08-26T10:47:32.5869660Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_060",
+      "timestamp": "2025-08-26T10:47:32.7651930Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_061",
+      "timestamp": "2025-08-26T10:47:33.0001397Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_062",
+      "timestamp": "2025-08-26T10:47:33.2961788Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_063",
+      "timestamp": "2025-08-26T10:47:33.4923497Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_064",
+      "timestamp": "2025-08-26T10:47:33.6909799Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_065",
+      "timestamp": "2025-08-26T10:47:33.8708915Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_066",
+      "timestamp": "2025-08-26T10:47:34.0740357Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_067",
+      "timestamp": "2025-08-26T10:47:34.3046957Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_068",
+      "timestamp": "2025-08-26T10:47:34.4747771Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_069",
+      "timestamp": "2025-08-26T10:47:34.6738762Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_070",
+      "timestamp": "2025-08-26T10:47:34.8819539Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_071",
+      "timestamp": "2025-08-26T10:47:35.0396338Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_072",
+      "timestamp": "2025-08-26T10:47:35.2359447Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_073",
+      "timestamp": "2025-08-26T10:47:35.4954950Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_074",
+      "timestamp": "2025-08-26T10:47:36.0832992Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_075",
+      "timestamp": "2025-08-26T10:47:36.3052967Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_076",
+      "timestamp": "2025-08-26T10:47:36.4806576Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.2701491117477417
+    },
+    {
+      "id": "IMMBKU_01_077",
+      "timestamp": "2025-08-26T10:47:36.6656458Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.2794917821884155
+    },
+    {
+      "id": "IMMBKU_01_078",
+      "timestamp": "2025-08-26T10:47:36.8707861Z",
+      "strategy": "Unknown",
+      "score": 0
+    },
+    {
+      "id": "IMMBKU_01_079",
+      "timestamp": "2025-08-26T10:47:37.0549876Z",
+      "strategy": "Unknown",
+      "score": 0
+    },
+    {
+      "id": "IMMBKU_01_080",
+      "timestamp": "2025-08-26T10:47:37.6591802Z",
+      "strategy": "Unknown",
+      "score": 0
+    },
+    {
+      "id": "IMMBKU_01_081",
+      "timestamp": "2025-08-26T10:47:38.0092592Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.39881157875061035
+    },
+    {
+      "id": "IMMBKU_01_082",
+      "timestamp": "2025-08-26T10:47:38.1676391Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_083",
+      "timestamp": "2025-08-26T10:47:38.3489958Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_084",
+      "timestamp": "2025-08-26T10:47:38.5229742Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_085",
+      "timestamp": "2025-08-26T10:47:38.6943343Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_086",
+      "timestamp": "2025-08-26T10:47:38.9073327Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4622316360473633
+    },
+    {
+      "id": "IMMBKU_01_087",
+      "timestamp": "2025-08-26T10:47:39.1059979Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4622316360473633
+    },
+    {
+      "id": "IMMBKU_01_088",
+      "timestamp": "2025-08-26T10:47:39.2835712Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4622316360473633
+    },
+    {
+      "id": "IMMBKU_01_089",
+      "timestamp": "2025-08-26T10:47:39.4855219Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4623866081237793
+    },
+    {
+      "id": "IMMBKU_01_090",
+      "timestamp": "2025-08-26T10:47:39.6561828Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.44109928607940674
+    },
+    {
+      "id": "IMMBKU_01_091",
+      "timestamp": "2025-08-26T10:47:39.8236891Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.46112167835235596
+    },
+    {
+      "id": "IMMBKU_01_092",
+      "timestamp": "2025-08-26T10:47:40.0324500Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4612081050872803
+    },
+    {
+      "id": "IMMBKU_01_093",
+      "timestamp": "2025-08-26T10:47:40.3828092Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4723724126815796
+    },
+    {
+      "id": "IMMBKU_01_094",
+      "timestamp": "2025-08-26T10:47:40.5717899Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4512357711791992
+    },
+    {
+      "id": "IMMBKU_01_095",
+      "timestamp": "2025-08-26T10:47:40.7916248Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4512828588485718
+    },
+    {
+      "id": "IMMBKU_01_096",
+      "timestamp": "2025-08-26T10:47:40.9622605Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.47221577167510986
+    },
+    {
+      "id": "IMMBKU_01_097",
+      "timestamp": "2025-08-26T10:47:41.1341370Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_098",
+      "timestamp": "2025-08-26T10:47:41.3129634Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_000",
+      "timestamp": "2025-08-26T10:47:19.1173516Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.08815360069274902
+    },
+    {
+      "id": "IMMBKU_01_000",
+      "timestamp": "2025-08-26T10:47:19.1173516Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.08815360069274902
+    },
+    {
+      "id": "IMMBKU_01_000",
+      "timestamp": "2025-08-26T10:47:19.1173516Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.08815360069274902
+    },
+    {
+      "id": "IMMBKU_01_001",
+      "timestamp": "2025-08-26T10:47:19.3853441Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.0073691606521606445
+    },
+    {
+      "id": "IMMBKU_01_002",
+      "timestamp": "2025-08-26T10:47:19.5697678Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.983623743057251
+    },
+    {
+      "id": "IMMBKU_01_003",
+      "timestamp": "2025-08-26T10:47:19.8363879Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_004",
+      "timestamp": "2025-08-26T10:47:20.0198552Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_005",
+      "timestamp": "2025-08-26T10:47:20.2209108Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_006",
+      "timestamp": "2025-08-26T10:47:20.6262830Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_007",
+      "timestamp": "2025-08-26T10:47:20.8133568Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_008",
+      "timestamp": "2025-08-26T10:47:20.9967445Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_009",
+      "timestamp": "2025-08-26T10:47:21.2337231Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_010",
+      "timestamp": "2025-08-26T10:47:21.3739961Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_011",
+      "timestamp": "2025-08-26T10:47:21.5115097Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_012",
+      "timestamp": "2025-08-26T10:47:21.7082015Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_013",
+      "timestamp": "2025-08-26T10:47:21.8755070Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_014",
+      "timestamp": "2025-08-26T10:47:22.1315278Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_015",
+      "timestamp": "2025-08-26T10:47:22.2606363Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_016",
+      "timestamp": "2025-08-26T10:47:22.6160075Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_017",
+      "timestamp": "2025-08-26T10:47:22.8361066Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_018",
+      "timestamp": "2025-08-26T10:47:23.2383677Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_019",
+      "timestamp": "2025-08-26T10:47:23.3743408Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_020",
+      "timestamp": "2025-08-26T10:47:23.8598691Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_021",
+      "timestamp": "2025-08-26T10:47:24.1841536Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_022",
+      "timestamp": "2025-08-26T10:47:24.3222903Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.9823360443115234
+    },
+    {
+      "id": "IMMBKU_01_023",
+      "timestamp": "2025-08-26T10:47:24.4675920Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_024",
+      "timestamp": "2025-08-26T10:47:24.6700638Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_025",
+      "timestamp": "2025-08-26T10:47:24.8162764Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.9840081930160522
+    },
+    {
+      "id": "IMMBKU_01_026",
+      "timestamp": "2025-08-26T10:47:24.9738615Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.9823360443115234
+    },
+    {
+      "id": "IMMBKU_01_027",
+      "timestamp": "2025-08-26T10:47:25.1689241Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_028",
+      "timestamp": "2025-08-26T10:47:25.2986669Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_029",
+      "timestamp": "2025-08-26T10:47:25.4810984Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_030",
+      "timestamp": "2025-08-26T10:47:25.6277747Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_031",
+      "timestamp": "2025-08-26T10:47:26.1127852Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_032",
+      "timestamp": "2025-08-26T10:47:26.4916214Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_033",
+      "timestamp": "2025-08-26T10:47:26.6828610Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_034",
+      "timestamp": "2025-08-26T10:47:26.9120951Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_035",
+      "timestamp": "2025-08-26T10:47:27.0890041Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_036",
+      "timestamp": "2025-08-26T10:47:27.2980145Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_037",
+      "timestamp": "2025-08-26T10:47:27.6534311Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_038",
+      "timestamp": "2025-08-26T10:47:27.8493584Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_039",
+      "timestamp": "2025-08-26T10:47:28.0248852Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_040",
+      "timestamp": "2025-08-26T10:47:28.2572782Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_041",
+      "timestamp": "2025-08-26T10:47:28.4704289Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_042",
+      "timestamp": "2025-08-26T10:47:28.6535887Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_043",
+      "timestamp": "2025-08-26T10:47:28.8365666Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_044",
+      "timestamp": "2025-08-26T10:47:29.0894915Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_045",
+      "timestamp": "2025-08-26T10:47:29.2760566Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_046",
+      "timestamp": "2025-08-26T10:47:29.4363530Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_047",
+      "timestamp": "2025-08-26T10:47:29.6364831Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_048",
+      "timestamp": "2025-08-26T10:47:29.8670644Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_049",
+      "timestamp": "2025-08-26T10:47:30.1652936Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_050",
+      "timestamp": "2025-08-26T10:47:30.3667762Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_051",
+      "timestamp": "2025-08-26T10:47:30.5899739Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_052",
+      "timestamp": "2025-08-26T10:47:30.8192409Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_053",
+      "timestamp": "2025-08-26T10:47:30.9923921Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_054",
+      "timestamp": "2025-08-26T10:47:31.1826047Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_055",
+      "timestamp": "2025-08-26T10:47:31.4178898Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_056",
+      "timestamp": "2025-08-26T10:47:31.8145797Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_057",
+      "timestamp": "2025-08-26T10:47:32.0043401Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_058",
+      "timestamp": "2025-08-26T10:47:32.2031605Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_059",
+      "timestamp": "2025-08-26T10:47:32.5869660Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_060",
+      "timestamp": "2025-08-26T10:47:32.7651930Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_061",
+      "timestamp": "2025-08-26T10:47:33.0001397Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_062",
+      "timestamp": "2025-08-26T10:47:33.2961788Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_063",
+      "timestamp": "2025-08-26T10:47:33.4923497Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_064",
+      "timestamp": "2025-08-26T10:47:33.6909799Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_065",
+      "timestamp": "2025-08-26T10:47:33.8708915Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_066",
+      "timestamp": "2025-08-26T10:47:34.0740357Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_067",
+      "timestamp": "2025-08-26T10:47:34.3046957Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_068",
+      "timestamp": "2025-08-26T10:47:34.4747771Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_069",
+      "timestamp": "2025-08-26T10:47:34.6738762Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_070",
+      "timestamp": "2025-08-26T10:47:34.8819539Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_071",
+      "timestamp": "2025-08-26T10:47:35.0396338Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_072",
+      "timestamp": "2025-08-26T10:47:35.2359447Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_073",
+      "timestamp": "2025-08-26T10:47:35.4954950Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_074",
+      "timestamp": "2025-08-26T10:47:36.0832992Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_075",
+      "timestamp": "2025-08-26T10:47:36.3052967Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_076",
+      "timestamp": "2025-08-26T10:47:36.4806576Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.2701491117477417
+    },
+    {
+      "id": "IMMBKU_01_077",
+      "timestamp": "2025-08-26T10:47:36.6656458Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.2794917821884155
+    },
+    {
+      "id": "IMMBKU_01_078",
+      "timestamp": "2025-08-26T10:47:36.8707861Z",
+      "strategy": "Unknown",
+      "score": 0
+    },
+    {
+      "id": "IMMBKU_01_079",
+      "timestamp": "2025-08-26T10:47:37.0549876Z",
+      "strategy": "Unknown",
+      "score": 0
+    },
+    {
+      "id": "IMMBKU_01_080",
+      "timestamp": "2025-08-26T10:47:37.6591802Z",
+      "strategy": "Unknown",
+      "score": 0
+    },
+    {
+      "id": "IMMBKU_01_000",
+      "timestamp": "2025-08-26T10:47:19.1173516Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.08815360069274902
+    },
+    {
+      "id": "IMMBKU_01_001",
+      "timestamp": "2025-08-26T10:47:19.3853441Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.0073691606521606445
+    },
+    {
+      "id": "IMMBKU_01_002",
+      "timestamp": "2025-08-26T10:47:19.5697678Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.983623743057251
+    },
+    {
+      "id": "IMMBKU_01_003",
+      "timestamp": "2025-08-26T10:47:19.8363879Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_004",
+      "timestamp": "2025-08-26T10:47:20.0198552Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_005",
+      "timestamp": "2025-08-26T10:47:20.2209108Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_006",
+      "timestamp": "2025-08-26T10:47:20.6262830Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_007",
+      "timestamp": "2025-08-26T10:47:20.8133568Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_008",
+      "timestamp": "2025-08-26T10:47:20.9967445Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_009",
+      "timestamp": "2025-08-26T10:47:21.2337231Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_010",
+      "timestamp": "2025-08-26T10:47:21.3739961Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_011",
+      "timestamp": "2025-08-26T10:47:21.5115097Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_012",
+      "timestamp": "2025-08-26T10:47:21.7082015Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_013",
+      "timestamp": "2025-08-26T10:47:21.8755070Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_014",
+      "timestamp": "2025-08-26T10:47:22.1315278Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_015",
+      "timestamp": "2025-08-26T10:47:22.2606363Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_016",
+      "timestamp": "2025-08-26T10:47:22.6160075Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_017",
+      "timestamp": "2025-08-26T10:47:22.8361066Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_018",
+      "timestamp": "2025-08-26T10:47:23.2383677Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_019",
+      "timestamp": "2025-08-26T10:47:23.3743408Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_020",
+      "timestamp": "2025-08-26T10:47:23.8598691Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_021",
+      "timestamp": "2025-08-26T10:47:24.1841536Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_022",
+      "timestamp": "2025-08-26T10:47:24.3222903Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.9823360443115234
+    },
+    {
+      "id": "IMMBKU_01_023",
+      "timestamp": "2025-08-26T10:47:24.4675920Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_024",
+      "timestamp": "2025-08-26T10:47:24.6700638Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_025",
+      "timestamp": "2025-08-26T10:47:24.8162764Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.9840081930160522
+    },
+    {
+      "id": "IMMBKU_01_026",
+      "timestamp": "2025-08-26T10:47:24.9738615Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.9823360443115234
+    },
+    {
+      "id": "IMMBKU_01_027",
+      "timestamp": "2025-08-26T10:47:25.1689241Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_028",
+      "timestamp": "2025-08-26T10:47:25.2986669Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_029",
+      "timestamp": "2025-08-26T10:47:25.4810984Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_030",
+      "timestamp": "2025-08-26T10:47:25.6277747Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_031",
+      "timestamp": "2025-08-26T10:47:26.1127852Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_032",
+      "timestamp": "2025-08-26T10:47:26.4916214Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_033",
+      "timestamp": "2025-08-26T10:47:26.6828610Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_034",
+      "timestamp": "2025-08-26T10:47:26.9120951Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_035",
+      "timestamp": "2025-08-26T10:47:27.0890041Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_036",
+      "timestamp": "2025-08-26T10:47:27.2980145Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_037",
+      "timestamp": "2025-08-26T10:47:27.6534311Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_038",
+      "timestamp": "2025-08-26T10:47:27.8493584Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_039",
+      "timestamp": "2025-08-26T10:47:28.0248852Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_040",
+      "timestamp": "2025-08-26T10:47:28.2572782Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_041",
+      "timestamp": "2025-08-26T10:47:28.4704289Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_042",
+      "timestamp": "2025-08-26T10:47:28.6535887Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_043",
+      "timestamp": "2025-08-26T10:47:28.8365666Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_044",
+      "timestamp": "2025-08-26T10:47:29.0894915Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_045",
+      "timestamp": "2025-08-26T10:47:29.2760566Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_046",
+      "timestamp": "2025-08-26T10:47:29.4363530Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_047",
+      "timestamp": "2025-08-26T10:47:29.6364831Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_048",
+      "timestamp": "2025-08-26T10:47:29.8670644Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_049",
+      "timestamp": "2025-08-26T10:47:30.1652936Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_050",
+      "timestamp": "2025-08-26T10:47:30.3667762Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_051",
+      "timestamp": "2025-08-26T10:47:30.5899739Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_052",
+      "timestamp": "2025-08-26T10:47:30.8192409Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_053",
+      "timestamp": "2025-08-26T10:47:30.9923921Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_054",
+      "timestamp": "2025-08-26T10:47:31.1826047Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_055",
+      "timestamp": "2025-08-26T10:47:31.4178898Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_056",
+      "timestamp": "2025-08-26T10:47:31.8145797Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_057",
+      "timestamp": "2025-08-26T10:47:32.0043401Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_000",
+      "timestamp": "2025-08-26T10:47:19.1173516Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.08815360069274902
+    },
+    {
+      "id": "IMMBKU_01_001",
+      "timestamp": "2025-08-26T10:47:19.3853441Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.0073691606521606445
+    },
+    {
+      "id": "IMMBKU_01_002",
+      "timestamp": "2025-08-26T10:47:19.5697678Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.983623743057251
+    },
+    {
+      "id": "IMMBKU_01_003",
+      "timestamp": "2025-08-26T10:47:19.8363879Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_004",
+      "timestamp": "2025-08-26T10:47:20.0198552Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_005",
+      "timestamp": "2025-08-26T10:47:20.2209108Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_006",
+      "timestamp": "2025-08-26T10:47:20.6262830Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_007",
+      "timestamp": "2025-08-26T10:47:20.8133568Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_008",
+      "timestamp": "2025-08-26T10:47:20.9967445Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_009",
+      "timestamp": "2025-08-26T10:47:21.2337231Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_010",
+      "timestamp": "2025-08-26T10:47:21.3739961Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_011",
+      "timestamp": "2025-08-26T10:47:21.5115097Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_012",
+      "timestamp": "2025-08-26T10:47:21.7082015Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_013",
+      "timestamp": "2025-08-26T10:47:21.8755070Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_014",
+      "timestamp": "2025-08-26T10:47:22.1315278Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_015",
+      "timestamp": "2025-08-26T10:47:22.2606363Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_016",
+      "timestamp": "2025-08-26T10:47:22.6160075Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_017",
+      "timestamp": "2025-08-26T10:47:22.8361066Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_018",
+      "timestamp": "2025-08-26T10:47:23.2383677Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_019",
+      "timestamp": "2025-08-26T10:47:23.3743408Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_020",
+      "timestamp": "2025-08-26T10:47:23.8598691Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_021",
+      "timestamp": "2025-08-26T10:47:24.1841536Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_022",
+      "timestamp": "2025-08-26T10:47:24.3222903Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.9823360443115234
+    },
+    {
+      "id": "IMMBKU_01_023",
+      "timestamp": "2025-08-26T10:47:24.4675920Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_024",
+      "timestamp": "2025-08-26T10:47:24.6700638Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_025",
+      "timestamp": "2025-08-26T10:47:24.8162764Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.9840081930160522
+    },
+    {
+      "id": "IMMBKU_01_026",
+      "timestamp": "2025-08-26T10:47:24.9738615Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.9823360443115234
+    },
+    {
+      "id": "IMMBKU_01_027",
+      "timestamp": "2025-08-26T10:47:25.1689241Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_028",
+      "timestamp": "2025-08-26T10:47:25.2986669Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_029",
+      "timestamp": "2025-08-26T10:47:25.4810984Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_030",
+      "timestamp": "2025-08-26T10:47:25.6277747Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_031",
+      "timestamp": "2025-08-26T10:47:26.1127852Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_032",
+      "timestamp": "2025-08-26T10:47:26.4916214Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_033",
+      "timestamp": "2025-08-26T10:47:26.6828610Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_034",
+      "timestamp": "2025-08-26T10:47:26.9120951Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_035",
+      "timestamp": "2025-08-26T10:47:27.0890041Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_036",
+      "timestamp": "2025-08-26T10:47:27.2980145Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_037",
+      "timestamp": "2025-08-26T10:47:27.6534311Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_038",
+      "timestamp": "2025-08-26T10:47:27.8493584Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_039",
+      "timestamp": "2025-08-26T10:47:28.0248852Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_040",
+      "timestamp": "2025-08-26T10:47:28.2572782Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_041",
+      "timestamp": "2025-08-26T10:47:28.4704289Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_042",
+      "timestamp": "2025-08-26T10:47:28.6535887Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_043",
+      "timestamp": "2025-08-26T10:47:28.8365666Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_044",
+      "timestamp": "2025-08-26T10:47:29.0894915Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_045",
+      "timestamp": "2025-08-26T10:47:29.2760566Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_046",
+      "timestamp": "2025-08-26T10:47:29.4363530Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_047",
+      "timestamp": "2025-08-26T10:47:29.6364831Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_048",
+      "timestamp": "2025-08-26T10:47:29.8670644Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_049",
+      "timestamp": "2025-08-26T10:47:30.1652936Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_050",
+      "timestamp": "2025-08-26T10:47:30.3667762Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_051",
+      "timestamp": "2025-08-26T10:47:30.5899739Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_052",
+      "timestamp": "2025-08-26T10:47:30.8192409Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_053",
+      "timestamp": "2025-08-26T10:47:30.9923921Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_054",
+      "timestamp": "2025-08-26T10:47:31.1826047Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_055",
+      "timestamp": "2025-08-26T10:47:31.4178898Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_056",
+      "timestamp": "2025-08-26T10:47:31.8145797Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_057",
+      "timestamp": "2025-08-26T10:47:32.0043401Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_058",
+      "timestamp": "2025-08-26T10:47:32.2031605Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_059",
+      "timestamp": "2025-08-26T10:47:32.5869660Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_000",
+      "timestamp": "2025-08-26T10:47:19.1173516Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.08815360069274902
+    },
+    {
+      "id": "IMMBKU_01_001",
+      "timestamp": "2025-08-26T10:47:19.3853441Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.0073691606521606445
+    },
+    {
+      "id": "IMMBKU_01_002",
+      "timestamp": "2025-08-26T10:47:19.5697678Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.983623743057251
+    },
+    {
+      "id": "IMMBKU_01_003",
+      "timestamp": "2025-08-26T10:47:19.8363879Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_004",
+      "timestamp": "2025-08-26T10:47:20.0198552Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_005",
+      "timestamp": "2025-08-26T10:47:20.2209108Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_006",
+      "timestamp": "2025-08-26T10:47:20.6262830Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_007",
+      "timestamp": "2025-08-26T10:47:20.8133568Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_008",
+      "timestamp": "2025-08-26T10:47:20.9967445Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_009",
+      "timestamp": "2025-08-26T10:47:21.2337231Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_010",
+      "timestamp": "2025-08-26T10:47:21.3739961Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_011",
+      "timestamp": "2025-08-26T10:47:21.5115097Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_012",
+      "timestamp": "2025-08-26T10:47:21.7082015Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_013",
+      "timestamp": "2025-08-26T10:47:21.8755070Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_014",
+      "timestamp": "2025-08-26T10:47:22.1315278Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_015",
+      "timestamp": "2025-08-26T10:47:22.2606363Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_016",
+      "timestamp": "2025-08-26T10:47:22.6160075Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_017",
+      "timestamp": "2025-08-26T10:47:22.8361066Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_018",
+      "timestamp": "2025-08-26T10:47:23.2383677Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_019",
+      "timestamp": "2025-08-26T10:47:23.3743408Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_020",
+      "timestamp": "2025-08-26T10:47:23.8598691Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_021",
+      "timestamp": "2025-08-26T10:47:24.1841536Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_022",
+      "timestamp": "2025-08-26T10:47:24.3222903Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.9823360443115234
+    },
+    {
+      "id": "IMMBKU_01_023",
+      "timestamp": "2025-08-26T10:47:24.4675920Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_024",
+      "timestamp": "2025-08-26T10:47:24.6700638Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_025",
+      "timestamp": "2025-08-26T10:47:24.8162764Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.9840081930160522
+    },
+    {
+      "id": "IMMBKU_01_026",
+      "timestamp": "2025-08-26T10:47:24.9738615Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.9823360443115234
+    },
+    {
+      "id": "IMMBKU_01_027",
+      "timestamp": "2025-08-26T10:47:25.1689241Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_028",
+      "timestamp": "2025-08-26T10:47:25.2986669Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_029",
+      "timestamp": "2025-08-26T10:47:25.4810984Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_030",
+      "timestamp": "2025-08-26T10:47:25.6277747Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_031",
+      "timestamp": "2025-08-26T10:47:26.1127852Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_032",
+      "timestamp": "2025-08-26T10:47:26.4916214Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_033",
+      "timestamp": "2025-08-26T10:47:26.6828610Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_034",
+      "timestamp": "2025-08-26T10:47:26.9120951Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_035",
+      "timestamp": "2025-08-26T10:47:27.0890041Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_036",
+      "timestamp": "2025-08-26T10:47:27.2980145Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_037",
+      "timestamp": "2025-08-26T10:47:27.6534311Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_038",
+      "timestamp": "2025-08-26T10:47:27.8493584Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_039",
+      "timestamp": "2025-08-26T10:47:28.0248852Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_040",
+      "timestamp": "2025-08-26T10:47:28.2572782Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_041",
+      "timestamp": "2025-08-26T10:47:28.4704289Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_042",
+      "timestamp": "2025-08-26T10:47:28.6535887Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_043",
+      "timestamp": "2025-08-26T10:47:28.8365666Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_044",
+      "timestamp": "2025-08-26T10:47:29.0894915Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_045",
+      "timestamp": "2025-08-26T10:47:29.2760566Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_046",
+      "timestamp": "2025-08-26T10:47:29.4363530Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_047",
+      "timestamp": "2025-08-26T10:47:29.6364831Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_048",
+      "timestamp": "2025-08-26T10:47:29.8670644Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_049",
+      "timestamp": "2025-08-26T10:47:30.1652936Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_050",
+      "timestamp": "2025-08-26T10:47:30.3667762Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_051",
+      "timestamp": "2025-08-26T10:47:30.5899739Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_052",
+      "timestamp": "2025-08-26T10:47:30.8192409Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_053",
+      "timestamp": "2025-08-26T10:47:30.9923921Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_054",
+      "timestamp": "2025-08-26T10:47:31.1826047Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_055",
+      "timestamp": "2025-08-26T10:47:31.4178898Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_056",
+      "timestamp": "2025-08-26T10:47:31.8145797Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_057",
+      "timestamp": "2025-08-26T10:47:32.0043401Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_058",
+      "timestamp": "2025-08-26T10:47:32.2031605Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_059",
+      "timestamp": "2025-08-26T10:47:32.5869660Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_060",
+      "timestamp": "2025-08-26T10:47:32.7651930Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_061",
+      "timestamp": "2025-08-26T10:47:33.0001397Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_062",
+      "timestamp": "2025-08-26T10:47:33.2961788Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_063",
+      "timestamp": "2025-08-26T10:47:33.4923497Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_064",
+      "timestamp": "2025-08-26T10:47:33.6909799Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_065",
+      "timestamp": "2025-08-26T10:47:33.8708915Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_066",
+      "timestamp": "2025-08-26T10:47:34.0740357Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_067",
+      "timestamp": "2025-08-26T10:47:34.3046957Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_068",
+      "timestamp": "2025-08-26T10:47:34.4747771Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_069",
+      "timestamp": "2025-08-26T10:47:34.6738762Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_070",
+      "timestamp": "2025-08-26T10:47:34.8819539Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_071",
+      "timestamp": "2025-08-26T10:47:35.0396338Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_072",
+      "timestamp": "2025-08-26T10:47:35.2359447Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_073",
+      "timestamp": "2025-08-26T10:47:35.4954950Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_074",
+      "timestamp": "2025-08-26T10:47:36.0832992Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_075",
+      "timestamp": "2025-08-26T10:47:36.3052967Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_076",
+      "timestamp": "2025-08-26T10:47:36.4806576Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.2701491117477417
+    },
+    {
+      "id": "IMMBKU_01_077",
+      "timestamp": "2025-08-26T10:47:36.6656458Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.2794917821884155
+    },
+    {
+      "id": "IMMBKU_01_078",
+      "timestamp": "2025-08-26T10:47:36.8707861Z",
+      "strategy": "Unknown",
+      "score": 0
+    },
+    {
+      "id": "IMMBKU_01_079",
+      "timestamp": "2025-08-26T10:47:37.0549876Z",
+      "strategy": "Unknown",
+      "score": 0
+    },
+    {
+      "id": "IMMBKU_01_080",
+      "timestamp": "2025-08-26T10:47:37.6591802Z",
+      "strategy": "Unknown",
+      "score": 0
+    },
+    {
+      "id": "IMMBKU_01_081",
+      "timestamp": "2025-08-26T10:47:38.0092592Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.39881157875061035
+    },
+    {
+      "id": "IMMBKU_01_082",
+      "timestamp": "2025-08-26T10:47:38.1676391Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_083",
+      "timestamp": "2025-08-26T10:47:38.3489958Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_084",
+      "timestamp": "2025-08-26T10:47:38.5229742Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_085",
+      "timestamp": "2025-08-26T10:47:38.6943343Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_086",
+      "timestamp": "2025-08-26T10:47:38.9073327Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4622316360473633
+    },
+    {
+      "id": "IMMBKU_01_087",
+      "timestamp": "2025-08-26T10:47:39.1059979Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4622316360473633
+    },
+    {
+      "id": "IMMBKU_01_088",
+      "timestamp": "2025-08-26T10:47:39.2835712Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4622316360473633
+    },
+    {
+      "id": "IMMBKU_01_089",
+      "timestamp": "2025-08-26T10:47:39.4855219Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4623866081237793
+    },
+    {
+      "id": "IMMBKU_01_090",
+      "timestamp": "2025-08-26T10:47:39.6561828Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.44109928607940674
+    },
+    {
+      "id": "IMMBKU_01_091",
+      "timestamp": "2025-08-26T10:47:39.8236891Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.46112167835235596
+    },
+    {
+      "id": "IMMBKU_01_092",
+      "timestamp": "2025-08-26T10:47:40.0324500Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4612081050872803
+    },
+    {
+      "id": "IMMBKU_01_093",
+      "timestamp": "2025-08-26T10:47:40.3828092Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4723724126815796
+    },
+    {
+      "id": "IMMBKU_01_094",
+      "timestamp": "2025-08-26T10:47:40.5717899Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4512357711791992
+    },
+    {
+      "id": "IMMBKU_01_095",
+      "timestamp": "2025-08-26T10:47:40.7916248Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4512828588485718
+    },
+    {
+      "id": "IMMBKU_01_096",
+      "timestamp": "2025-08-26T10:47:40.9622605Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.47221577167510986
+    },
+    {
+      "id": "IMMBKU_01_097",
+      "timestamp": "2025-08-26T10:47:41.1341370Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_098",
+      "timestamp": "2025-08-26T10:47:41.3129634Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_099",
+      "timestamp": "2025-08-26T10:47:41.5333799Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_100",
+      "timestamp": "2025-08-26T10:47:41.6886805Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_101",
+      "timestamp": "2025-08-26T10:47:41.8724171Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_102",
+      "timestamp": "2025-08-26T10:47:42.0956441Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_103",
+      "timestamp": "2025-08-26T10:47:42.3306118Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_104",
+      "timestamp": "2025-08-26T10:47:42.7738128Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_105",
+      "timestamp": "2025-08-26T10:47:42.9430144Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_106",
+      "timestamp": "2025-08-26T10:47:43.1183951Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_107",
+      "timestamp": "2025-08-26T10:47:43.3001894Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_108",
+      "timestamp": "2025-08-26T10:47:43.5043497Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_109",
+      "timestamp": "2025-08-26T10:47:43.7028495Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_110",
+      "timestamp": "2025-08-26T10:47:43.9313522Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_111",
+      "timestamp": "2025-08-26T10:47:44.1254932Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_112",
+      "timestamp": "2025-08-26T10:47:44.3617808Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_113",
+      "timestamp": "2025-08-26T10:47:44.5154153Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_114",
+      "timestamp": "2025-08-26T10:47:44.6739927Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_115",
+      "timestamp": "2025-08-26T10:47:45.0891956Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_116",
+      "timestamp": "2025-08-26T10:47:45.2832061Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.46245598793029785
+    },
+    {
+      "id": "IMMBKU_01_117",
+      "timestamp": "2025-08-26T10:47:45.7483616Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4721715450286865
+    },
+    {
+      "id": "IMMBKU_01_118",
+      "timestamp": "2025-08-26T10:47:45.9193065Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_119",
+      "timestamp": "2025-08-26T10:47:46.1005466Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_120",
+      "timestamp": "2025-08-26T10:47:46.3111735Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_121",
+      "timestamp": "2025-08-26T10:47:46.5036040Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_122",
+      "timestamp": "2025-08-26T10:47:46.6817382Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_123",
+      "timestamp": "2025-08-26T10:47:47.1587307Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_124",
+      "timestamp": "2025-08-26T10:47:47.3932994Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_125",
+      "timestamp": "2025-08-26T10:47:47.6599856Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_126",
+      "timestamp": "2025-08-26T10:47:47.9099948Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_127",
+      "timestamp": "2025-08-26T10:47:48.1190458Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_128",
+      "timestamp": "2025-08-26T10:47:48.3053622Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_129",
+      "timestamp": "2025-08-26T10:47:48.4845421Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_130",
+      "timestamp": "2025-08-26T10:47:48.7621876Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_131",
+      "timestamp": "2025-08-26T10:47:49.0917773Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_132",
+      "timestamp": "2025-08-26T10:47:49.3625586Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_133",
+      "timestamp": "2025-08-26T10:47:49.5219155Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_134",
+      "timestamp": "2025-08-26T10:47:49.6995378Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_135",
+      "timestamp": "2025-08-26T10:47:49.8934544Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_136",
+      "timestamp": "2025-08-26T10:47:50.0551607Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_137",
+      "timestamp": "2025-08-26T10:47:50.2464285Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990754127502441
+    },
+    {
+      "id": "IMMBKU_01_138",
+      "timestamp": "2025-08-26T10:47:50.4420683Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4622316360473633
+    },
+    {
+      "id": "IMMBKU_01_139",
+      "timestamp": "2025-08-26T10:47:50.6141361Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4622316360473633
+    },
+    {
+      "id": "IMMBKU_01_000",
+      "timestamp": "2025-08-26T10:47:19.1173516Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.08815360069274902
+    },
+    {
+      "id": "IMMBKU_01_001",
+      "timestamp": "2025-08-26T10:47:19.3853441Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.0073691606521606445
+    },
+    {
+      "id": "IMMBKU_01_002",
+      "timestamp": "2025-08-26T10:47:19.5697678Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.983623743057251
+    },
+    {
+      "id": "IMMBKU_01_003",
+      "timestamp": "2025-08-26T10:47:19.8363879Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_004",
+      "timestamp": "2025-08-26T10:47:20.0198552Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_005",
+      "timestamp": "2025-08-26T10:47:20.2209108Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_006",
+      "timestamp": "2025-08-26T10:47:20.6262830Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_007",
+      "timestamp": "2025-08-26T10:47:20.8133568Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_008",
+      "timestamp": "2025-08-26T10:47:20.9967445Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_009",
+      "timestamp": "2025-08-26T10:47:21.2337231Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_010",
+      "timestamp": "2025-08-26T10:47:21.3739961Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_011",
+      "timestamp": "2025-08-26T10:47:21.5115097Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_012",
+      "timestamp": "2025-08-26T10:47:21.7082015Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_013",
+      "timestamp": "2025-08-26T10:47:21.8755070Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_014",
+      "timestamp": "2025-08-26T10:47:22.1315278Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_015",
+      "timestamp": "2025-08-26T10:47:22.2606363Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_016",
+      "timestamp": "2025-08-26T10:47:22.6160075Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_017",
+      "timestamp": "2025-08-26T10:47:22.8361066Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_018",
+      "timestamp": "2025-08-26T10:47:23.2383677Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_019",
+      "timestamp": "2025-08-26T10:47:23.3743408Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_020",
+      "timestamp": "2025-08-26T10:47:23.8598691Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_021",
+      "timestamp": "2025-08-26T10:47:24.1841536Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_022",
+      "timestamp": "2025-08-26T10:47:24.3222903Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.9823360443115234
+    },
+    {
+      "id": "IMMBKU_01_023",
+      "timestamp": "2025-08-26T10:47:24.4675920Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_024",
+      "timestamp": "2025-08-26T10:47:24.6700638Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_025",
+      "timestamp": "2025-08-26T10:47:24.8162764Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.9840081930160522
+    },
+    {
+      "id": "IMMBKU_01_026",
+      "timestamp": "2025-08-26T10:47:24.9738615Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.9823360443115234
+    },
+    {
+      "id": "IMMBKU_01_027",
+      "timestamp": "2025-08-26T10:47:25.1689241Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_028",
+      "timestamp": "2025-08-26T10:47:25.2986669Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_029",
+      "timestamp": "2025-08-26T10:47:25.4810984Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_030",
+      "timestamp": "2025-08-26T10:47:25.6277747Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_031",
+      "timestamp": "2025-08-26T10:47:26.1127852Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_032",
+      "timestamp": "2025-08-26T10:47:26.4916214Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_033",
+      "timestamp": "2025-08-26T10:47:26.6828610Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_034",
+      "timestamp": "2025-08-26T10:47:26.9120951Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_035",
+      "timestamp": "2025-08-26T10:47:27.0890041Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_036",
+      "timestamp": "2025-08-26T10:47:27.2980145Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_037",
+      "timestamp": "2025-08-26T10:47:27.6534311Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_038",
+      "timestamp": "2025-08-26T10:47:27.8493584Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_039",
+      "timestamp": "2025-08-26T10:47:28.0248852Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_040",
+      "timestamp": "2025-08-26T10:47:28.2572782Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_041",
+      "timestamp": "2025-08-26T10:47:28.4704289Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_042",
+      "timestamp": "2025-08-26T10:47:28.6535887Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_043",
+      "timestamp": "2025-08-26T10:47:28.8365666Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_044",
+      "timestamp": "2025-08-26T10:47:29.0894915Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_045",
+      "timestamp": "2025-08-26T10:47:29.2760566Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_046",
+      "timestamp": "2025-08-26T10:47:29.4363530Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_047",
+      "timestamp": "2025-08-26T10:47:29.6364831Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_048",
+      "timestamp": "2025-08-26T10:47:29.8670644Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_049",
+      "timestamp": "2025-08-26T10:47:30.1652936Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_050",
+      "timestamp": "2025-08-26T10:47:30.3667762Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_051",
+      "timestamp": "2025-08-26T10:47:30.5899739Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_052",
+      "timestamp": "2025-08-26T10:47:30.8192409Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_053",
+      "timestamp": "2025-08-26T10:47:30.9923921Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_054",
+      "timestamp": "2025-08-26T10:47:31.1826047Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_055",
+      "timestamp": "2025-08-26T10:47:31.4178898Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_056",
+      "timestamp": "2025-08-26T10:47:31.8145797Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_057",
+      "timestamp": "2025-08-26T10:47:32.0043401Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_058",
+      "timestamp": "2025-08-26T10:47:32.2031605Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_059",
+      "timestamp": "2025-08-26T10:47:32.5869660Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_060",
+      "timestamp": "2025-08-26T10:47:32.7651930Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_061",
+      "timestamp": "2025-08-26T10:47:33.0001397Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_062",
+      "timestamp": "2025-08-26T10:47:33.2961788Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_063",
+      "timestamp": "2025-08-26T10:47:33.4923497Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_064",
+      "timestamp": "2025-08-26T10:47:33.6909799Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_065",
+      "timestamp": "2025-08-26T10:47:33.8708915Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_066",
+      "timestamp": "2025-08-26T10:47:34.0740357Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_067",
+      "timestamp": "2025-08-26T10:47:34.3046957Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_068",
+      "timestamp": "2025-08-26T10:47:34.4747771Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_069",
+      "timestamp": "2025-08-26T10:47:34.6738762Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_070",
+      "timestamp": "2025-08-26T10:47:34.8819539Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_071",
+      "timestamp": "2025-08-26T10:47:35.0396338Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_072",
+      "timestamp": "2025-08-26T10:47:35.2359447Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_073",
+      "timestamp": "2025-08-26T10:47:35.4954950Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_074",
+      "timestamp": "2025-08-26T10:47:36.0832992Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_075",
+      "timestamp": "2025-08-26T10:47:36.3052967Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_076",
+      "timestamp": "2025-08-26T10:47:36.4806576Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.2701491117477417
+    },
+    {
+      "id": "IMMBKU_01_077",
+      "timestamp": "2025-08-26T10:47:36.6656458Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.2794917821884155
+    },
+    {
+      "id": "IMMBKU_01_078",
+      "timestamp": "2025-08-26T10:47:36.8707861Z",
+      "strategy": "Unknown",
+      "score": 0
+    },
+    {
+      "id": "IMMBKU_01_079",
+      "timestamp": "2025-08-26T10:47:37.0549876Z",
+      "strategy": "Unknown",
+      "score": 0
+    },
+    {
+      "id": "IMMBKU_01_080",
+      "timestamp": "2025-08-26T10:47:37.6591802Z",
+      "strategy": "Unknown",
+      "score": 0
+    },
+    {
+      "id": "IMMBKU_01_081",
+      "timestamp": "2025-08-26T10:47:38.0092592Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.39881157875061035
+    },
+    {
+      "id": "IMMBKU_01_082",
+      "timestamp": "2025-08-26T10:47:38.1676391Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_083",
+      "timestamp": "2025-08-26T10:47:38.3489958Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_084",
+      "timestamp": "2025-08-26T10:47:38.5229742Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_085",
+      "timestamp": "2025-08-26T10:47:38.6943343Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_086",
+      "timestamp": "2025-08-26T10:47:38.9073327Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4622316360473633
+    },
+    {
+      "id": "IMMBKU_01_087",
+      "timestamp": "2025-08-26T10:47:39.1059979Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4622316360473633
+    },
+    {
+      "id": "IMMBKU_01_088",
+      "timestamp": "2025-08-26T10:47:39.2835712Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4622316360473633
+    },
+    {
+      "id": "IMMBKU_01_089",
+      "timestamp": "2025-08-26T10:47:39.4855219Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4623866081237793
+    },
+    {
+      "id": "IMMBKU_01_090",
+      "timestamp": "2025-08-26T10:47:39.6561828Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.44109928607940674
+    },
+    {
+      "id": "IMMBKU_01_091",
+      "timestamp": "2025-08-26T10:47:39.8236891Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.46112167835235596
+    },
+    {
+      "id": "IMMBKU_01_092",
+      "timestamp": "2025-08-26T10:47:40.0324500Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4612081050872803
+    },
+    {
+      "id": "IMMBKU_01_093",
+      "timestamp": "2025-08-26T10:47:40.3828092Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4723724126815796
+    },
+    {
+      "id": "IMMBKU_01_094",
+      "timestamp": "2025-08-26T10:47:40.5717899Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4512357711791992
+    },
+    {
+      "id": "IMMBKU_01_095",
+      "timestamp": "2025-08-26T10:47:40.7916248Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4512828588485718
+    },
+    {
+      "id": "IMMBKU_01_096",
+      "timestamp": "2025-08-26T10:47:40.9622605Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.47221577167510986
+    },
+    {
+      "id": "IMMBKU_01_097",
+      "timestamp": "2025-08-26T10:47:41.1341370Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_098",
+      "timestamp": "2025-08-26T10:47:41.3129634Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_099",
+      "timestamp": "2025-08-26T10:47:41.5333799Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_100",
+      "timestamp": "2025-08-26T10:47:41.6886805Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_101",
+      "timestamp": "2025-08-26T10:47:41.8724171Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_102",
+      "timestamp": "2025-08-26T10:47:42.0956441Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_103",
+      "timestamp": "2025-08-26T10:47:42.3306118Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_104",
+      "timestamp": "2025-08-26T10:47:42.7738128Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_105",
+      "timestamp": "2025-08-26T10:47:42.9430144Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_106",
+      "timestamp": "2025-08-26T10:47:43.1183951Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_107",
+      "timestamp": "2025-08-26T10:47:43.3001894Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_108",
+      "timestamp": "2025-08-26T10:47:43.5043497Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_109",
+      "timestamp": "2025-08-26T10:47:43.7028495Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_110",
+      "timestamp": "2025-08-26T10:47:43.9313522Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_111",
+      "timestamp": "2025-08-26T10:47:44.1254932Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_112",
+      "timestamp": "2025-08-26T10:47:44.3617808Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_113",
+      "timestamp": "2025-08-26T10:47:44.5154153Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_114",
+      "timestamp": "2025-08-26T10:47:44.6739927Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_115",
+      "timestamp": "2025-08-26T10:47:45.0891956Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_116",
+      "timestamp": "2025-08-26T10:47:45.2832061Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.46245598793029785
+    },
+    {
+      "id": "IMMBKU_01_117",
+      "timestamp": "2025-08-26T10:47:45.7483616Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4721715450286865
+    },
+    {
+      "id": "IMMBKU_01_118",
+      "timestamp": "2025-08-26T10:47:45.9193065Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_119",
+      "timestamp": "2025-08-26T10:47:46.1005466Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_120",
+      "timestamp": "2025-08-26T10:47:46.3111735Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_121",
+      "timestamp": "2025-08-26T10:47:46.5036040Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_122",
+      "timestamp": "2025-08-26T10:47:46.6817382Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_123",
+      "timestamp": "2025-08-26T10:47:47.1587307Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_124",
+      "timestamp": "2025-08-26T10:47:47.3932994Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_125",
+      "timestamp": "2025-08-26T10:47:47.6599856Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_126",
+      "timestamp": "2025-08-26T10:47:47.9099948Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_127",
+      "timestamp": "2025-08-26T10:47:48.1190458Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_128",
+      "timestamp": "2025-08-26T10:47:48.3053622Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_129",
+      "timestamp": "2025-08-26T10:47:48.4845421Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_130",
+      "timestamp": "2025-08-26T10:47:48.7621876Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_131",
+      "timestamp": "2025-08-26T10:47:49.0917773Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_132",
+      "timestamp": "2025-08-26T10:47:49.3625586Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_133",
+      "timestamp": "2025-08-26T10:47:49.5219155Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_134",
+      "timestamp": "2025-08-26T10:47:49.6995378Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_135",
+      "timestamp": "2025-08-26T10:47:49.8934544Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_136",
+      "timestamp": "2025-08-26T10:47:50.0551607Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_137",
+      "timestamp": "2025-08-26T10:47:50.2464285Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990754127502441
+    },
+    {
+      "id": "IMMBKU_01_138",
+      "timestamp": "2025-08-26T10:47:50.4420683Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4622316360473633
+    },
+    {
+      "id": "IMMBKU_01_139",
+      "timestamp": "2025-08-26T10:47:50.6141361Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4622316360473633
+    },
+    {
+      "id": "IMMBKU_01_000",
+      "timestamp": "2025-08-26T10:47:19.1173516Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.08815360069274902
+    },
+    {
+      "id": "IMMBKU_01_001",
+      "timestamp": "2025-08-26T10:47:19.3853441Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.0073691606521606445
+    },
+    {
+      "id": "IMMBKU_01_002",
+      "timestamp": "2025-08-26T10:47:19.5697678Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.983623743057251
+    },
+    {
+      "id": "IMMBKU_01_003",
+      "timestamp": "2025-08-26T10:47:19.8363879Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_004",
+      "timestamp": "2025-08-26T10:47:20.0198552Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_005",
+      "timestamp": "2025-08-26T10:47:20.2209108Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_006",
+      "timestamp": "2025-08-26T10:47:20.6262830Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_007",
+      "timestamp": "2025-08-26T10:47:20.8133568Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_008",
+      "timestamp": "2025-08-26T10:47:20.9967445Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_009",
+      "timestamp": "2025-08-26T10:47:21.2337231Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_010",
+      "timestamp": "2025-08-26T10:47:21.3739961Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_011",
+      "timestamp": "2025-08-26T10:47:21.5115097Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_012",
+      "timestamp": "2025-08-26T10:47:21.7082015Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_013",
+      "timestamp": "2025-08-26T10:47:21.8755070Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_014",
+      "timestamp": "2025-08-26T10:47:22.1315278Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_015",
+      "timestamp": "2025-08-26T10:47:22.2606363Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_016",
+      "timestamp": "2025-08-26T10:47:22.6160075Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_017",
+      "timestamp": "2025-08-26T10:47:22.8361066Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_018",
+      "timestamp": "2025-08-26T10:47:23.2383677Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_019",
+      "timestamp": "2025-08-26T10:47:23.3743408Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_020",
+      "timestamp": "2025-08-26T10:47:23.8598691Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_021",
+      "timestamp": "2025-08-26T10:47:24.1841536Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_022",
+      "timestamp": "2025-08-26T10:47:24.3222903Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.9823360443115234
+    },
+    {
+      "id": "IMMBKU_01_023",
+      "timestamp": "2025-08-26T10:47:24.4675920Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_024",
+      "timestamp": "2025-08-26T10:47:24.6700638Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_025",
+      "timestamp": "2025-08-26T10:47:24.8162764Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.9840081930160522
+    },
+    {
+      "id": "IMMBKU_01_026",
+      "timestamp": "2025-08-26T10:47:24.9738615Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.9823360443115234
+    },
+    {
+      "id": "IMMBKU_01_027",
+      "timestamp": "2025-08-26T10:47:25.1689241Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_028",
+      "timestamp": "2025-08-26T10:47:25.2986669Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_029",
+      "timestamp": "2025-08-26T10:47:25.4810984Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_030",
+      "timestamp": "2025-08-26T10:47:25.6277747Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_031",
+      "timestamp": "2025-08-26T10:47:26.1127852Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_032",
+      "timestamp": "2025-08-26T10:47:26.4916214Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_033",
+      "timestamp": "2025-08-26T10:47:26.6828610Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_034",
+      "timestamp": "2025-08-26T10:47:26.9120951Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_035",
+      "timestamp": "2025-08-26T10:47:27.0890041Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_036",
+      "timestamp": "2025-08-26T10:47:27.2980145Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_037",
+      "timestamp": "2025-08-26T10:47:27.6534311Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_038",
+      "timestamp": "2025-08-26T10:47:27.8493584Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_039",
+      "timestamp": "2025-08-26T10:47:28.0248852Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_040",
+      "timestamp": "2025-08-26T10:47:28.2572782Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_041",
+      "timestamp": "2025-08-26T10:47:28.4704289Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_042",
+      "timestamp": "2025-08-26T10:47:28.6535887Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_043",
+      "timestamp": "2025-08-26T10:47:28.8365666Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_044",
+      "timestamp": "2025-08-26T10:47:29.0894915Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_045",
+      "timestamp": "2025-08-26T10:47:29.2760566Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_046",
+      "timestamp": "2025-08-26T10:47:29.4363530Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_047",
+      "timestamp": "2025-08-26T10:47:29.6364831Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_048",
+      "timestamp": "2025-08-26T10:47:29.8670644Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_049",
+      "timestamp": "2025-08-26T10:47:30.1652936Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_050",
+      "timestamp": "2025-08-26T10:47:30.3667762Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_051",
+      "timestamp": "2025-08-26T10:47:30.5899739Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_052",
+      "timestamp": "2025-08-26T10:47:30.8192409Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_053",
+      "timestamp": "2025-08-26T10:47:30.9923921Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_054",
+      "timestamp": "2025-08-26T10:47:31.1826047Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_055",
+      "timestamp": "2025-08-26T10:47:31.4178898Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_056",
+      "timestamp": "2025-08-26T10:47:31.8145797Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_057",
+      "timestamp": "2025-08-26T10:47:32.0043401Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_058",
+      "timestamp": "2025-08-26T10:47:32.2031605Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_059",
+      "timestamp": "2025-08-26T10:47:32.5869660Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_060",
+      "timestamp": "2025-08-26T10:47:32.7651930Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_061",
+      "timestamp": "2025-08-26T10:47:33.0001397Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_062",
+      "timestamp": "2025-08-26T10:47:33.2961788Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_063",
+      "timestamp": "2025-08-26T10:47:33.4923497Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_064",
+      "timestamp": "2025-08-26T10:47:33.6909799Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_065",
+      "timestamp": "2025-08-26T10:47:33.8708915Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_066",
+      "timestamp": "2025-08-26T10:47:34.0740357Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_067",
+      "timestamp": "2025-08-26T10:47:34.3046957Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_068",
+      "timestamp": "2025-08-26T10:47:34.4747771Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_069",
+      "timestamp": "2025-08-26T10:47:34.6738762Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_070",
+      "timestamp": "2025-08-26T10:47:34.8819539Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_071",
+      "timestamp": "2025-08-26T10:47:35.0396338Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_072",
+      "timestamp": "2025-08-26T10:47:35.2359447Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_073",
+      "timestamp": "2025-08-26T10:47:35.4954950Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_074",
+      "timestamp": "2025-08-26T10:47:36.0832992Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_075",
+      "timestamp": "2025-08-26T10:47:36.3052967Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_076",
+      "timestamp": "2025-08-26T10:47:36.4806576Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.2701491117477417
+    },
+    {
+      "id": "IMMBKU_01_077",
+      "timestamp": "2025-08-26T10:47:36.6656458Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.2794917821884155
+    },
+    {
+      "id": "IMMBKU_01_078",
+      "timestamp": "2025-08-26T10:47:36.8707861Z",
+      "strategy": "Unknown",
+      "score": 0
+    },
+    {
+      "id": "IMMBKU_01_079",
+      "timestamp": "2025-08-26T10:47:37.0549876Z",
+      "strategy": "Unknown",
+      "score": 0
+    },
+    {
+      "id": "IMMBKU_01_080",
+      "timestamp": "2025-08-26T10:47:37.6591802Z",
+      "strategy": "Unknown",
+      "score": 0
+    },
+    {
+      "id": "IMMBKU_01_081",
+      "timestamp": "2025-08-26T10:47:38.0092592Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.39881157875061035
+    },
+    {
+      "id": "IMMBKU_01_082",
+      "timestamp": "2025-08-26T10:47:38.1676391Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_083",
+      "timestamp": "2025-08-26T10:47:38.3489958Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_084",
+      "timestamp": "2025-08-26T10:47:38.5229742Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_085",
+      "timestamp": "2025-08-26T10:47:38.6943343Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_086",
+      "timestamp": "2025-08-26T10:47:38.9073327Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4622316360473633
+    },
+    {
+      "id": "IMMBKU_01_087",
+      "timestamp": "2025-08-26T10:47:39.1059979Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4622316360473633
+    },
+    {
+      "id": "IMMBKU_01_088",
+      "timestamp": "2025-08-26T10:47:39.2835712Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4622316360473633
+    },
+    {
+      "id": "IMMBKU_01_089",
+      "timestamp": "2025-08-26T10:47:39.4855219Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4623866081237793
+    },
+    {
+      "id": "IMMBKU_01_090",
+      "timestamp": "2025-08-26T10:47:39.6561828Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.44109928607940674
+    },
+    {
+      "id": "IMMBKU_01_091",
+      "timestamp": "2025-08-26T10:47:39.8236891Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.46112167835235596
+    },
+    {
+      "id": "IMMBKU_01_092",
+      "timestamp": "2025-08-26T10:47:40.0324500Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4612081050872803
+    },
+    {
+      "id": "IMMBKU_01_093",
+      "timestamp": "2025-08-26T10:47:40.3828092Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4723724126815796
+    },
+    {
+      "id": "IMMBKU_01_094",
+      "timestamp": "2025-08-26T10:47:40.5717899Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4512357711791992
+    },
+    {
+      "id": "IMMBKU_01_095",
+      "timestamp": "2025-08-26T10:47:40.7916248Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4512828588485718
+    },
+    {
+      "id": "IMMBKU_01_096",
+      "timestamp": "2025-08-26T10:47:40.9622605Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.47221577167510986
+    },
+    {
+      "id": "IMMBKU_01_097",
+      "timestamp": "2025-08-26T10:47:41.1341370Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_098",
+      "timestamp": "2025-08-26T10:47:41.3129634Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_099",
+      "timestamp": "2025-08-26T10:47:41.5333799Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_100",
+      "timestamp": "2025-08-26T10:47:41.6886805Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_101",
+      "timestamp": "2025-08-26T10:47:41.8724171Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_102",
+      "timestamp": "2025-08-26T10:47:42.0956441Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_103",
+      "timestamp": "2025-08-26T10:47:42.3306118Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_104",
+      "timestamp": "2025-08-26T10:47:42.7738128Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_105",
+      "timestamp": "2025-08-26T10:47:42.9430144Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_106",
+      "timestamp": "2025-08-26T10:47:43.1183951Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_107",
+      "timestamp": "2025-08-26T10:47:43.3001894Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_108",
+      "timestamp": "2025-08-26T10:47:43.5043497Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_109",
+      "timestamp": "2025-08-26T10:47:43.7028495Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_110",
+      "timestamp": "2025-08-26T10:47:43.9313522Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_111",
+      "timestamp": "2025-08-26T10:47:44.1254932Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_112",
+      "timestamp": "2025-08-26T10:47:44.3617808Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_113",
+      "timestamp": "2025-08-26T10:47:44.5154153Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_114",
+      "timestamp": "2025-08-26T10:47:44.6739927Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_115",
+      "timestamp": "2025-08-26T10:47:45.0891956Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_116",
+      "timestamp": "2025-08-26T10:47:45.2832061Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.46245598793029785
+    },
+    {
+      "id": "IMMBKU_01_117",
+      "timestamp": "2025-08-26T10:47:45.7483616Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4721715450286865
+    },
+    {
+      "id": "IMMBKU_01_118",
+      "timestamp": "2025-08-26T10:47:45.9193065Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_119",
+      "timestamp": "2025-08-26T10:47:46.1005466Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_120",
+      "timestamp": "2025-08-26T10:47:46.3111735Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_121",
+      "timestamp": "2025-08-26T10:47:46.5036040Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_122",
+      "timestamp": "2025-08-26T10:47:46.6817382Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_123",
+      "timestamp": "2025-08-26T10:47:47.1587307Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_124",
+      "timestamp": "2025-08-26T10:47:47.3932994Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_125",
+      "timestamp": "2025-08-26T10:47:47.6599856Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_126",
+      "timestamp": "2025-08-26T10:47:47.9099948Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_127",
+      "timestamp": "2025-08-26T10:47:48.1190458Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_128",
+      "timestamp": "2025-08-26T10:47:48.3053622Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_129",
+      "timestamp": "2025-08-26T10:47:48.4845421Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_130",
+      "timestamp": "2025-08-26T10:47:48.7621876Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_131",
+      "timestamp": "2025-08-26T10:47:49.0917773Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_132",
+      "timestamp": "2025-08-26T10:47:49.3625586Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_133",
+      "timestamp": "2025-08-26T10:47:49.5219155Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_134",
+      "timestamp": "2025-08-26T10:47:49.6995378Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_135",
+      "timestamp": "2025-08-26T10:47:49.8934544Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_136",
+      "timestamp": "2025-08-26T10:47:50.0551607Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_137",
+      "timestamp": "2025-08-26T10:47:50.2464285Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990754127502441
+    },
+    {
+      "id": "IMMBKU_01_138",
+      "timestamp": "2025-08-26T10:47:50.4420683Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4622316360473633
+    },
+    {
+      "id": "IMMBKU_01_139",
+      "timestamp": "2025-08-26T10:47:50.6141361Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4622316360473633
+    },
+    {
+      "id": "IMMBKU_01_000",
+      "timestamp": "2025-08-26T10:47:19.1173516Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.08815360069274902
+    },
+    {
+      "id": "IMMBKU_01_001",
+      "timestamp": "2025-08-26T10:47:19.3853441Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.0073691606521606445
+    },
+    {
+      "id": "IMMBKU_01_002",
+      "timestamp": "2025-08-26T10:47:19.5697678Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.983623743057251
+    },
+    {
+      "id": "IMMBKU_01_003",
+      "timestamp": "2025-08-26T10:47:19.8363879Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_004",
+      "timestamp": "2025-08-26T10:47:20.0198552Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_005",
+      "timestamp": "2025-08-26T10:47:20.2209108Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_006",
+      "timestamp": "2025-08-26T10:47:20.6262830Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_007",
+      "timestamp": "2025-08-26T10:47:20.8133568Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_008",
+      "timestamp": "2025-08-26T10:47:20.9967445Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_009",
+      "timestamp": "2025-08-26T10:47:21.2337231Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_010",
+      "timestamp": "2025-08-26T10:47:21.3739961Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_011",
+      "timestamp": "2025-08-26T10:47:21.5115097Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_012",
+      "timestamp": "2025-08-26T10:47:21.7082015Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_013",
+      "timestamp": "2025-08-26T10:47:21.8755070Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_014",
+      "timestamp": "2025-08-26T10:47:22.1315278Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_015",
+      "timestamp": "2025-08-26T10:47:22.2606363Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_016",
+      "timestamp": "2025-08-26T10:47:22.6160075Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_017",
+      "timestamp": "2025-08-26T10:47:22.8361066Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_018",
+      "timestamp": "2025-08-26T10:47:23.2383677Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_019",
+      "timestamp": "2025-08-26T10:47:23.3743408Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_020",
+      "timestamp": "2025-08-26T10:47:23.8598691Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_021",
+      "timestamp": "2025-08-26T10:47:24.1841536Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_022",
+      "timestamp": "2025-08-26T10:47:24.3222903Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.9823360443115234
+    },
+    {
+      "id": "IMMBKU_01_023",
+      "timestamp": "2025-08-26T10:47:24.4675920Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_024",
+      "timestamp": "2025-08-26T10:47:24.6700638Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_025",
+      "timestamp": "2025-08-26T10:47:24.8162764Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.9840081930160522
+    },
+    {
+      "id": "IMMBKU_01_026",
+      "timestamp": "2025-08-26T10:47:24.9738615Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.9823360443115234
+    },
+    {
+      "id": "IMMBKU_01_027",
+      "timestamp": "2025-08-26T10:47:25.1689241Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_028",
+      "timestamp": "2025-08-26T10:47:25.2986669Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_029",
+      "timestamp": "2025-08-26T10:47:25.4810984Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_030",
+      "timestamp": "2025-08-26T10:47:25.6277747Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_031",
+      "timestamp": "2025-08-26T10:47:26.1127852Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_032",
+      "timestamp": "2025-08-26T10:47:26.4916214Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_033",
+      "timestamp": "2025-08-26T10:47:26.6828610Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_034",
+      "timestamp": "2025-08-26T10:47:26.9120951Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_035",
+      "timestamp": "2025-08-26T10:47:27.0890041Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_036",
+      "timestamp": "2025-08-26T10:47:27.2980145Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_037",
+      "timestamp": "2025-08-26T10:47:27.6534311Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_038",
+      "timestamp": "2025-08-26T10:47:27.8493584Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_039",
+      "timestamp": "2025-08-26T10:47:28.0248852Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_040",
+      "timestamp": "2025-08-26T10:47:28.2572782Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_041",
+      "timestamp": "2025-08-26T10:47:28.4704289Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_042",
+      "timestamp": "2025-08-26T10:47:28.6535887Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_043",
+      "timestamp": "2025-08-26T10:47:28.8365666Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_044",
+      "timestamp": "2025-08-26T10:47:29.0894915Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_045",
+      "timestamp": "2025-08-26T10:47:29.2760566Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_046",
+      "timestamp": "2025-08-26T10:47:29.4363530Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_047",
+      "timestamp": "2025-08-26T10:47:29.6364831Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_048",
+      "timestamp": "2025-08-26T10:47:29.8670644Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_049",
+      "timestamp": "2025-08-26T10:47:30.1652936Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_050",
+      "timestamp": "2025-08-26T10:47:30.3667762Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_051",
+      "timestamp": "2025-08-26T10:47:30.5899739Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_052",
+      "timestamp": "2025-08-26T10:47:30.8192409Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_053",
+      "timestamp": "2025-08-26T10:47:30.9923921Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_054",
+      "timestamp": "2025-08-26T10:47:31.1826047Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_055",
+      "timestamp": "2025-08-26T10:47:31.4178898Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_056",
+      "timestamp": "2025-08-26T10:47:31.8145797Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_057",
+      "timestamp": "2025-08-26T10:47:32.0043401Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_058",
+      "timestamp": "2025-08-26T10:47:32.2031605Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_059",
+      "timestamp": "2025-08-26T10:47:32.5869660Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_060",
+      "timestamp": "2025-08-26T10:47:32.7651930Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_061",
+      "timestamp": "2025-08-26T10:47:33.0001397Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_062",
+      "timestamp": "2025-08-26T10:47:33.2961788Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_063",
+      "timestamp": "2025-08-26T10:47:33.4923497Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_064",
+      "timestamp": "2025-08-26T10:47:33.6909799Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_065",
+      "timestamp": "2025-08-26T10:47:33.8708915Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_066",
+      "timestamp": "2025-08-26T10:47:34.0740357Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_067",
+      "timestamp": "2025-08-26T10:47:34.3046957Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_068",
+      "timestamp": "2025-08-26T10:47:34.4747771Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_069",
+      "timestamp": "2025-08-26T10:47:34.6738762Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_070",
+      "timestamp": "2025-08-26T10:47:34.8819539Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_071",
+      "timestamp": "2025-08-26T10:47:35.0396338Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_072",
+      "timestamp": "2025-08-26T10:47:35.2359447Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_073",
+      "timestamp": "2025-08-26T10:47:35.4954950Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_074",
+      "timestamp": "2025-08-26T10:47:36.0832992Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_075",
+      "timestamp": "2025-08-26T10:47:36.3052967Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_076",
+      "timestamp": "2025-08-26T10:47:36.4806576Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.2701491117477417
+    },
+    {
+      "id": "IMMBKU_01_077",
+      "timestamp": "2025-08-26T10:47:36.6656458Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.2794917821884155
+    },
+    {
+      "id": "IMMBKU_01_078",
+      "timestamp": "2025-08-26T10:47:36.8707861Z",
+      "strategy": "Unknown",
+      "score": 0
+    },
+    {
+      "id": "IMMBKU_01_079",
+      "timestamp": "2025-08-26T10:47:37.0549876Z",
+      "strategy": "Unknown",
+      "score": 0
+    },
+    {
+      "id": "IMMBKU_01_080",
+      "timestamp": "2025-08-26T10:47:37.6591802Z",
+      "strategy": "Unknown",
+      "score": 0
+    },
+    {
+      "id": "IMMBKU_01_081",
+      "timestamp": "2025-08-26T10:47:38.0092592Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.39881157875061035
+    },
+    {
+      "id": "IMMBKU_01_082",
+      "timestamp": "2025-08-26T10:47:38.1676391Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_083",
+      "timestamp": "2025-08-26T10:47:38.3489958Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_084",
+      "timestamp": "2025-08-26T10:47:38.5229742Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_085",
+      "timestamp": "2025-08-26T10:47:38.6943343Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_086",
+      "timestamp": "2025-08-26T10:47:38.9073327Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4622316360473633
+    },
+    {
+      "id": "IMMBKU_01_087",
+      "timestamp": "2025-08-26T10:47:39.1059979Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4622316360473633
+    },
+    {
+      "id": "IMMBKU_01_088",
+      "timestamp": "2025-08-26T10:47:39.2835712Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4622316360473633
+    },
+    {
+      "id": "IMMBKU_01_089",
+      "timestamp": "2025-08-26T10:47:39.4855219Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4623866081237793
+    },
+    {
+      "id": "IMMBKU_01_090",
+      "timestamp": "2025-08-26T10:47:39.6561828Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.44109928607940674
+    },
+    {
+      "id": "IMMBKU_01_091",
+      "timestamp": "2025-08-26T10:47:39.8236891Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.46112167835235596
+    },
+    {
+      "id": "IMMBKU_01_092",
+      "timestamp": "2025-08-26T10:47:40.0324500Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4612081050872803
+    },
+    {
+      "id": "IMMBKU_01_093",
+      "timestamp": "2025-08-26T10:47:40.3828092Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4723724126815796
+    },
+    {
+      "id": "IMMBKU_01_094",
+      "timestamp": "2025-08-26T10:47:40.5717899Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4512357711791992
+    },
+    {
+      "id": "IMMBKU_01_095",
+      "timestamp": "2025-08-26T10:47:40.7916248Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4512828588485718
+    },
+    {
+      "id": "IMMBKU_01_096",
+      "timestamp": "2025-08-26T10:47:40.9622605Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.47221577167510986
+    },
+    {
+      "id": "IMMBKU_01_097",
+      "timestamp": "2025-08-26T10:47:41.1341370Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_098",
+      "timestamp": "2025-08-26T10:47:41.3129634Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_099",
+      "timestamp": "2025-08-26T10:47:41.5333799Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_100",
+      "timestamp": "2025-08-26T10:47:41.6886805Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_101",
+      "timestamp": "2025-08-26T10:47:41.8724171Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_102",
+      "timestamp": "2025-08-26T10:47:42.0956441Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_103",
+      "timestamp": "2025-08-26T10:47:42.3306118Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_104",
+      "timestamp": "2025-08-26T10:47:42.7738128Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_105",
+      "timestamp": "2025-08-26T10:47:42.9430144Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_106",
+      "timestamp": "2025-08-26T10:47:43.1183951Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_107",
+      "timestamp": "2025-08-26T10:47:43.3001894Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_108",
+      "timestamp": "2025-08-26T10:47:43.5043497Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_109",
+      "timestamp": "2025-08-26T10:47:43.7028495Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_110",
+      "timestamp": "2025-08-26T10:47:43.9313522Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_111",
+      "timestamp": "2025-08-26T10:47:44.1254932Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_112",
+      "timestamp": "2025-08-26T10:47:44.3617808Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_113",
+      "timestamp": "2025-08-26T10:47:44.5154153Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990792274475098
+    },
+    {
+      "id": "IMMBKU_01_114",
+      "timestamp": "2025-08-26T10:47:44.6739927Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_115",
+      "timestamp": "2025-08-26T10:47:45.0891956Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_116",
+      "timestamp": "2025-08-26T10:47:45.2832061Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.46245598793029785
+    },
+    {
+      "id": "IMMBKU_01_117",
+      "timestamp": "2025-08-26T10:47:45.7483616Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4721715450286865
+    },
+    {
+      "id": "IMMBKU_01_118",
+      "timestamp": "2025-08-26T10:47:45.9193065Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_119",
+      "timestamp": "2025-08-26T10:47:46.1005466Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_120",
+      "timestamp": "2025-08-26T10:47:46.3111735Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990888833999634
+    },
+    {
+      "id": "IMMBKU_01_121",
+      "timestamp": "2025-08-26T10:47:46.5036040Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990828037261963
+    },
+    {
+      "id": "IMMBKU_01_122",
+      "timestamp": "2025-08-26T10:47:46.6817382Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_123",
+      "timestamp": "2025-08-26T10:47:47.1587307Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990711212158203
+    },
+    {
+      "id": "IMMBKU_01_124",
+      "timestamp": "2025-08-26T10:47:47.3932994Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_125",
+      "timestamp": "2025-08-26T10:47:47.6599856Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990541934967041
+    },
+    {
+      "id": "IMMBKU_01_126",
+      "timestamp": "2025-08-26T10:47:47.9099948Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_127",
+      "timestamp": "2025-08-26T10:47:48.1190458Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_128",
+      "timestamp": "2025-08-26T10:47:48.3053622Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_129",
+      "timestamp": "2025-08-26T10:47:48.4845421Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_130",
+      "timestamp": "2025-08-26T10:47:48.7621876Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990661144256592
+    },
+    {
+      "id": "IMMBKU_01_131",
+      "timestamp": "2025-08-26T10:47:49.0917773Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_132",
+      "timestamp": "2025-08-26T10:47:49.3625586Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_133",
+      "timestamp": "2025-08-26T10:47:49.5219155Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_134",
+      "timestamp": "2025-08-26T10:47:49.6995378Z",
+      "strategy": "OtherStrategy",
+      "score": 0.999047040939331
+    },
+    {
+      "id": "IMMBKU_01_135",
+      "timestamp": "2025-08-26T10:47:49.8934544Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_136",
+      "timestamp": "2025-08-26T10:47:50.0551607Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990606307983398
+    },
+    {
+      "id": "IMMBKU_01_137",
+      "timestamp": "2025-08-26T10:47:50.2464285Z",
+      "strategy": "OtherStrategy",
+      "score": 0.9990754127502441
+    },
+    {
+      "id": "IMMBKU_01_138",
+      "timestamp": "2025-08-26T10:47:50.4420683Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4622316360473633
+    },
+    {
+      "id": "IMMBKU_01_139",
+      "timestamp": "2025-08-26T10:47:50.6141361Z",
+      "strategy": "UccidiESpegniLuci",
+      "score": 0.4622316360473633
+    }
+  ],
+  "eventdetails": [
+    {
+      "id": "IMMBKU_01_000",
+      "timestamp": "2025-08-26T10:47:19.1173516Z",
+      "metadata": {
+        "graph": {
+          "edges": [
+            {
+              "data": {
+                "label": -0.2182765156030655,
+                "source": 0,
+                "target": 1
+              }
+            },
+            {
+              "data": {
+                "label": -0.33020833134651184,
+                "source": 1,
+                "target": 0
+              }
+            },
+            {
+              "data": {
+                "label": -0.28787878155708313,
+                "source": 2,
+                "target": 0
+              }
+            },
+            {
+              "data": {
+                "label": -0.02239583246409893,
+                "source": 2,
+                "target": 1
+              }
+            },
+            {
+              "data": {
+                "label": -0.3060606122016907,
+                "source": 3,
+                "target": 0
+              }
+            },
+            {
+              "data": {
+                "label": -0.03498264029622078,
+                "source": 3,
+                "target": 1
+              }
+            },
+            {
+              "data": {
+                "label": -0.28787878155708313,
+                "source": 4,
+                "target": 0
+              }
+            },
+            {
+              "data": {
+                "label": -0.02242187410593033,
+                "source": 4,
+                "target": 1
+              }
+            },
+            {
+              "data": {
+                "label": 0.4848484992980957,
+                "source": 5,
+                "target": 0
+              }
+            },
+            {
+              "data": {
+                "label": 0.375,
+                "source": 5,
+                "target": 1
+              }
+            }
+          ],
+          "nodes": [
+            {
+              "data": {
+                "id": 0,
+                "label": "KillToSovrapposition"
+              }
+            },
+            {
+              "data": {
+                "id": 1,
+                "label": "UccidiESpegniLuci"
+              }
+            },
+            {
+              "data": {
+                "id": 2,
+                "label": "AldoMoro"
+              }
+            },
+            {
+              "data": {
+                "id": 3,
+                "label": "Retroindex"
+              }
+            },
+            {
+              "data": {
+                "id": 4,
+                "label": "Stormynest"
+              }
+            },
+            {
+              "data": {
+                "id": 5,
+                "label": "SeeSomeOne"
+              }
+            }
+          ]
+        },
+        "suggestedStrategies": [
+          {
+            "name": "KillToSovrapposition",
+            "score": -0.6398917436599731,
+            "explanation": null
+          },
+          {
+            "name": "UccidiESpegniLuci",
+            "score": 0.08815360069274902,
+            "explanation": {
+              "against": [
+                {
+                  "path": [
+                    5,
+                    1
+                  ],
+                  "strengthProduct": 0.375
+                }
+              ],
+              "favor": [
+                {
+                  "path": [
+                    5,
+                    0,
+                    1
+                  ],
+                  "strengthProduct": -0.10583104193210602
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "annotation": "Prefix(:=<http://www.semanticweb.org/giova/ontologies/2024/5/AmongUs/>)\nOntology(\nClassAssertion(ObjectIntersectionOf(:CrewMateAlive :Player1 ObjectAllValuesFrom(:IsInFOV :Player2) ObjectAllValuesFrom(:IsInFOV :Player4) ObjectAllValuesFrom(:HasNAlivePlayers :Player) ObjectExactCardinality(2 :IsInFOV) ObjectExactCardinality(0 :VeryNear) ObjectExactCardinality(0 :Does) ObjectExactCardinality(4 :HasNAlivePlayers) ObjectExactCardinality(0 :IsInFOVFromTask) DataAllValuesFrom(:IsFixed DataOneOf(\"true\"^^xsd:boolean))) :AldoMoro)\nClassAssertion(ObjectIntersectionOf(:CrewMateAlive :Player3 ObjectAllValuesFrom(:IsInFOV :Player2) ObjectAllValuesFrom(:IsInFOV :Player4) ObjectAllValuesFrom(:HasNAlivePlayers :Player) ObjectExactCardinality(2 :IsInFOV) ObjectExactCardinality(0 :VeryNear) ObjectExactCardinality(0 :Does) ObjectExactCardinality(4 :HasNAlivePlayers) ObjectExactCardinality(0 :IsInFOVFromTask)) :Retroindex)\nClassAssertion(ObjectIntersectionOf(:ImpostorAlive :Player4 ObjectAllValuesFrom(:ImpostorIsInFOV :Player1) ObjectAllValuesFrom(:ImpostorIsInFOV :Player3) ObjectAllValuesFrom(:HasNAlivePlayers :Player) ObjectExactCardinality(2 :ImpostorIsInFOV) ObjectExactCardinality(0 :VeryNear) ObjectExactCardinality(0 :Fake) ObjectExactCardinality(4 :HasNAlivePlayers) ObjectExactCardinality(0 :ImpostorIsInFOVFromTask) DataAllValuesFrom(:IsFixed DataOneOf(\"true\"^^xsd:boolean))) :Stormynest)\n)\n"
+    }
+  ],
+  "evaluations": [
+    {
+      "id": "user42-IMMBKU_01_001",
+      "sessionId": "IMMBKU_01",
+      "eventId": "IMMBKU_01_001",
+      "userId": "user42",
+      "reaction": "like",
+      "timestamp": "2025-09-09T13:31:05.000Z"
+    },
+    {
+      "id": "user42-IMMBKU_01_000",
+      "sessionId": "IMMBKU_01",
+      "eventId": "IMMBKU_01_000",
+      "userId": "user42",
+      "reaction": "dislike",
+      "timestamp": "2025-09-09T13:31:34.074Z"
+    },
+    {
+      "id": "user42-IMMBKU_01_002",
+      "sessionId": "IMMBKU_01",
+      "eventId": "IMMBKU_01_002",
+      "userId": "user42",
+      "reaction": "dislike",
+      "timestamp": "2025-09-09T13:31:45.928Z"
+    },
+    {
+      "id": "user42-IMMBKU_01_003",
+      "sessionId": "IMMBKU_01",
+      "eventId": "IMMBKU_01_003",
+      "userId": "user42",
+      "reaction": "dislike",
+      "timestamp": "2025-09-09T13:37:41.483Z"
+    },
+    {
+      "id": "user42-IMMBKU_01_004",
+      "sessionId": "IMMBKU_01",
+      "eventId": "IMMBKU_01_004",
+      "userId": "user42",
+      "reaction": "dislike",
+      "timestamp": "2025-09-09T13:43:20.901Z"
+    },
+    {
+      "id": "user42-IMMBKU_01_005",
+      "sessionId": "IMMBKU_01",
+      "eventId": "IMMBKU_01_005",
+      "userId": "user42",
+      "reaction": "like",
+      "timestamp": "2025-09-09T13:51:15.853Z"
+    },
+    {
+      "id": "user42-IMMBKU_01_009",
+      "sessionId": "IMMBKU_01",
+      "eventId": "IMMBKU_01_009",
+      "userId": "user42",
+      "reaction": "like",
+      "timestamp": "2025-09-09T13:41:15.235Z"
+    },
+    {
+      "id": "user42-IMMBKU_01_006",
+      "sessionId": "IMMBKU_01",
+      "eventId": "IMMBKU_01_006",
+      "userId": "user42",
+      "reaction": "like",
+      "timestamp": "2025-09-09T13:51:13.287Z"
+    },
+    {
+      "id": "user42-IMMBKU_01_010",
+      "sessionId": "IMMBKU_01",
+      "eventId": "IMMBKU_01_010",
+      "userId": "user42",
+      "reaction": "like",
+      "timestamp": "2025-09-09T13:50:51.018Z"
+    },
+    {
+      "id": "user42-IMMBKU_01_011",
+      "sessionId": "IMMBKU_01",
+      "eventId": "IMMBKU_01_011",
+      "userId": "user42",
+      "reaction": "like",
+      "timestamp": "2025-09-09T13:51:07.347Z"
+    },
+    {
+      "id": "user42-IMMBKU_01_008",
+      "sessionId": "IMMBKU_01",
+      "eventId": "IMMBKU_01_008",
+      "userId": "user42",
+      "reaction": "dislike",
+      "timestamp": "2025-09-09T13:52:09.468Z"
+    },
+    {
+      "id": "user42-IMMBKU_01_007",
+      "sessionId": "IMMBKU_01",
+      "eventId": "IMMBKU_01_007",
+      "userId": "user42",
+      "reaction": "like",
+      "timestamp": "2025-09-09T13:52:59.680Z"
+    },
+    {
+      "id": "user42-IMMBKU_01_012",
+      "sessionId": "IMMBKU_01",
+      "eventId": "IMMBKU_01_012",
+      "userId": "user42",
+      "reaction": "like",
+      "timestamp": "2025-09-09T14:21:21.198Z"
+    },
+    {
+      "id": "user42-IMMBKU_01_013",
+      "sessionId": "IMMBKU_01",
+      "eventId": "IMMBKU_01_013",
+      "userId": "user42",
+      "reaction": "like",
+      "timestamp": "2025-09-09T14:21:25.707Z"
+    },
+    {
+      "id": "user42-IMMBKU_01_014",
+      "sessionId": "IMMBKU_01",
+      "eventId": "IMMBKU_01_014",
+      "userId": "user42",
+      "reaction": "like",
+      "timestamp": "2025-09-09T14:21:29.775Z"
+    },
+    {
+      "id": "user42-IMMBKU_01_015",
+      "sessionId": "IMMBKU_01",
+      "eventId": "IMMBKU_01_015",
+      "userId": "user42",
+      "reaction": "like",
+      "timestamp": "2025-09-09T14:21:32.140Z"
+    },
+    {
+      "id": "user42-IMMBKU_01_016",
+      "sessionId": "IMMBKU_01",
+      "eventId": "IMMBKU_01_016",
+      "userId": "user42",
+      "reaction": "dislike",
+      "timestamp": "2025-09-09T14:10:33.458Z"
+    },
+    {
+      "id": "user42-IMMBKU_01_017",
+      "sessionId": "IMMBKU_01",
+      "eventId": "IMMBKU_01_017",
+      "userId": "user42",
+      "reaction": "dislike",
+      "timestamp": "2025-09-09T14:12:29.217Z"
+    },
+    {
+      "id": "user42-IMMBKU_01_018",
+      "sessionId": "IMMBKU_01",
+      "eventId": "IMMBKU_01_018",
+      "userId": "user42",
+      "reaction": "dislike",
+      "timestamp": "2025-09-09T14:21:15.850Z"
+    }
+  ]
+}
